@@ -21,7 +21,8 @@ export class AppComponent implements OnInit {
       // @ts-ignore
       .pipe(map((results: any[]) => results.map((r) => r.mission_name)));
 
-    this.names$.subscribe();
+      //Don't need this we are using async pipe
+    //this.names$.subscribe();
 
     // bad
 /*
