@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "jest --json --outputFile=./result.json"
+    "test": "jest --json --outputFile=./testOutput.json"
   },
   "private": true,
   "dependencies": {
