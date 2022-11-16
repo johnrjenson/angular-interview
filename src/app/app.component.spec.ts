@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 
 describe('App', () => {
 
-  let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
   let httpMock: HttpTestingController;
 
