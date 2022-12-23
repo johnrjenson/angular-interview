@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 testOutput.json
+results.json
