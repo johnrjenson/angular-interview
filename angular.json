@@ -16,6 +16,7 @@
             "outputPath": "dist/angular-interview",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/app/",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [

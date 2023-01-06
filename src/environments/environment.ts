@@ -4,10 +4,16 @@
 
 // @ts-ignore
 import { worker } from '../mocks/browser.js'
-worker.start()
+worker.start({
+  serviceWorker: {
+    // Points to the custom location of the Service Worker file.
+    url: `/app/mockServiceWorker.js`
+  }
+})
 
 export const environment = {
-  production: false
+  production: false,
+  baseUrl: '/app/'
 };
 
 /*
