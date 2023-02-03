@@ -9,6 +9,7 @@ import { map } from "rxjs/operators";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
+  constructor(private http: HttpClient) {}
 
   // TODO: Add code here to call https://api.spacexdata.com/v2/launches when the component is initialized
 
